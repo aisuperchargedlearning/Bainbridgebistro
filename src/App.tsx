@@ -37,6 +37,78 @@ function App() {
       </div>
     </div>
 
+    {/* Lamb Ragu Showcase Section */}
+    <div className="relative min-h-screen bg-slate-900 overflow-hidden" style={{ backgroundColor: '#0A0E1A' }}>
+      {/* Video Background */}
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="absolute inset-0 w-full h-full object-cover opacity-0 animate-fade-in"
+      >
+        <source src="https://ik.imagekit.io/a7tech/Bainbridge%20Bistro/Lamb%20Ragu%20with%20Spanish%20Wine.mp4?updatedAt=1759528124850" type="video/mp4" />
+      </video>
+
+      {/* Overlay for better text readability */}
+      <div className="absolute inset-0 bg-black opacity-20"></div>
+
+      {/* Content */}
+      <div className="relative min-h-screen flex items-end justify-center pb-12">
+        <p className="text-white text-2xl md:text-3xl font-light tracking-wide opacity-0 animate-fade-in" style={{ animationDelay: '3s' }}>
+          Lamb Ragu with Spanish Wine
+        </p>
+      </div>
+    </div>
+
+    {/* Chicken Marsala Showcase Section */}
+    <div className="relative min-h-screen bg-slate-900 overflow-hidden" style={{ backgroundColor: '#0A0E1A' }}>
+      {/* Video Background */}
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="absolute inset-0 w-full h-full object-cover opacity-0 animate-fade-in"
+      >
+        <source src="https://ik.imagekit.io/a7tech/Bainbridge%20Bistro/Chickenmarsala.mp4?updatedAt=1759528636176" type="video/mp4" />
+      </video>
+
+      {/* Overlay for better text readability */}
+      <div className="absolute inset-0 bg-black opacity-20"></div>
+
+      {/* Content */}
+      <div className="relative min-h-screen flex items-end justify-center pb-12">
+        <p className="text-white text-2xl md:text-3xl font-light tracking-wide opacity-0 animate-fade-in" style={{ animationDelay: '3s' }}>
+          Chicken Marsala
+        </p>
+      </div>
+    </div>
+
+    {/* Bistecca Alla Gorgonzola Showcase Section */}
+    <div className="relative min-h-screen bg-slate-900 overflow-hidden" style={{ backgroundColor: '#0A0E1A' }}>
+      {/* Video Background */}
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="absolute inset-0 w-full h-full object-cover opacity-0 animate-fade-in"
+      >
+        <source src="https://ik.imagekit.io/a7tech/Bainbridge%20Bistro/BISTECCA%20ALLA%20GORGONZOLA.mp4?updatedAt=1759529654151" type="video/mp4" />
+      </video>
+
+      {/* Overlay for better text readability */}
+      <div className="absolute inset-0 bg-black opacity-20"></div>
+
+      {/* Content */}
+      <div className="relative min-h-screen flex items-end justify-center pb-12">
+        <p className="text-white text-2xl md:text-3xl font-light tracking-wide opacity-0 animate-fade-in" style={{ animationDelay: '3s' }}>
+          Bistecca Alla Gorgonzola
+        </p>
+      </div>
+    </div>
+
     {/* Next Section */}
     <section className="min-h-screen flex items-center justify-center" style={{ backgroundColor: '#2A364A' }}>
       <div className="max-w-4xl mx-auto px-6 text-center">
