@@ -52,6 +52,19 @@ function App() {
             Our team is so excited for for this new chapter!
           </p>
         </div>
+
+        {/* Venue Video */}
+        <div className="mt-12 max-w-5xl mx-auto opacity-0 animate-fade-in" style={{ animationDelay: '0.6s' }}>
+          <video
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="w-full rounded-lg shadow-2xl"
+          >
+            <source src="https://ik.imagekit.io/a7tech/Bainbridge%20Bistro/BainbridgebistroVenue.mp4?updatedAt=1759515001320" type="video/mp4" />
+          </video>
+        </div>
       </div>
     </section>
 
