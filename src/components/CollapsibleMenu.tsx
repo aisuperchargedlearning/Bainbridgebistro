@@ -118,20 +118,20 @@ const CollapsibleMenu = () => {
           title: 'FRESH PASTA',
           items: [
             {
-              name: 'TAGLIATELLE DI MARE',
-              description: 'Manila clams, shrimp, scallops, tomatoes, onions, garlic, basil pesto, parmesan.'
+              name: 'PUMPKIN RAVIOLI',
+              description: 'Sage butter, diced carrots, toasted walnuts, pecorino cheese. Pair with Il Borgo Pinot Grigio'
             },
             {
-              name: 'LEMON CHICK CAPELLINI',
-              description: 'Asparagus, tomatoes, onions, olives, lemon mascarpone sauce, pecorino.'
+              name: 'SCALLOPS TAGLIATELLE',
+              description: 'Fresh diver sea scallops, asparagus, tomatoes, onions, basil pesto. Pair with Eidosela Albariño'
             },
             {
               name: 'RAGU DI AGNELLO',
-              description: 'Braised lamb, red pepper pappardelle, ricotta cheese.'
+              description: 'Braised lamb, red pepper pappardelle, ricotta cheese. Pair with Castle Rock Pinot Noir'
             },
             {
-              name: 'WILD MUSHROOM RAVIOLI',
-              description: 'Wild mushrooms, onions, tomatoes, garlic, basil, roasted tomato sauce, gorgonzola.'
+              name: 'LEMON CHICKEN CAPELLINI',
+              description: 'Asparagus, tomatoes, onions, olives, lemon mascarpone sauce, pecorino. Pair with Barone Di Bernaj Alcamo'
             }
           ]
         },
@@ -139,28 +139,28 @@ const CollapsibleMenu = () => {
           title: 'ENTREE',
           items: [
             {
-              name: 'VEAL CHOP',
-              description: '16 oz. bone-in Steak, roasted potatoes, vegetables, gremolata.'
-            },
-            {
-              name: 'BISTECCA ALLA GORGONZOLA',
-              description: '8 oz Flat Iron, roasted potatoes, vegetables, gorgonzola sauce.'
-            },
-            {
-              name: 'PORK MARSALA',
-              description: 'Pork tenderloin, roasted vegetables, mashed potatoes, mushrooms marsala.'
+              name: 'COSTATA DI MANZO',
+              description: '12 oz. local ribeye steak, roasted potatoes, vegetables, gorgonzola. Pair with Ontanon Tempranillo'
             },
             {
               name: 'SEARED HALIBUT',
-              description: 'Wild-caught Halibut, veggies, rice, saffron cream sauce, parmesan.'
+              description: 'Wild-caught halibut, mashed potatoes, gremolata. Pair with Santola Vinho Verde'
             },
             {
               name: 'LOBSTER RISOTTO',
-              description: 'Maine lobster tail, shrimp, asparagus, diced carrots, tomatoes, onions, parmesan.'
+              description: 'Maine lobster tail, shrimp, asparagus, diced carrots, tomatoes, onions, parmesan. Pair with Il Borgo Pinot Grigio'
             },
             {
-              name: 'BOUILLABAISSE',
-              description: 'Fresh clams, scallops, fish, prawns, mirepoix, fennel, saffron, aioli, bread.'
+              name: 'PORK MARSALA',
+              description: 'Pork tenderloin, roasted vegetables, mashed potatoes, mushrooms marsala. Pair with La Quercia Aglianico'
+            },
+            {
+              name: 'BAINBRIDGE BOUILLABAISSE',
+              description: 'Fresh clams, halibut, prawns, mire-poix, saffron aioli, bread. Pair with Flama d\'or Cava'
+            },
+            {
+              name: 'DUNGENESS CRAB LEGS',
+              description: 'Steam served with roasted potatoes, veggies, and butter. Pair with Santola Vinho Verde'
             }
           ]
         },
