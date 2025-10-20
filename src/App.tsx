@@ -166,14 +166,57 @@ function App() {
           </h2>
           <div className="w-16 h-0.5 mx-auto" style={{ backgroundColor: '#d4af37' }}></div>
         </div>
-        
+
         <div className="text-center">
-          <h3 className="text-xl font-semibold text-white mb-6 tracking-wide" style={{ fontFamily: 'Libre Baskerville, serif' }}>
+          <h3 className="text-xl font-semibold text-white mb-8 tracking-wide" style={{ fontFamily: 'Libre Baskerville, serif' }}>
             NON-ALCOHOLIC BEVERAGES
           </h3>
-          <p className="text-gray-300 text-lg">
-            Content coming soon...
-          </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-3xl mx-auto text-left">
+            <div>
+              <h4 className="text-white font-semibold mb-1">Hop Water</h4>
+              <p className="text-gray-300 text-sm">Inquire about flavors</p>
+            </div>
+            <div>
+              <h4 className="text-white font-semibold mb-1">Athletic</h4>
+              <p className="text-gray-300 text-sm">Hazy IPA</p>
+            </div>
+            <div>
+              <h4 className="text-white font-semibold mb-1">Hellraiser</h4>
+              <p className="text-gray-300 text-sm">Dark</p>
+            </div>
+            <div>
+              <h4 className="text-white font-semibold mb-1">Cider</h4>
+              <p className="text-gray-300 text-sm">Inquire about our flavors</p>
+            </div>
+            <div>
+              <h4 className="text-white font-semibold mb-1">Estrella</h4>
+              <p className="text-gray-300 text-sm">Lager, Spain</p>
+            </div>
+            <div>
+              <h4 className="text-white font-semibold mb-1">Gruvi</h4>
+              <p className="text-gray-300 text-sm">Amber</p>
+            </div>
+            <div>
+              <h4 className="text-white font-semibold mb-1">Partake</h4>
+              <p className="text-gray-300 text-sm">IPA or Blonde</p>
+            </div>
+            <div>
+              <h4 className="text-white font-semibold mb-1">Vinada</h4>
+              <p className="text-gray-300 text-sm">Cava Rosé, Spain</p>
+            </div>
+            <div>
+              <h4 className="text-white font-semibold mb-1">Red Wine</h4>
+              <p className="text-gray-300 text-sm">Tempranillo, Spain</p>
+            </div>
+            <div>
+              <h4 className="text-white font-semibold mb-1">White Wine</h4>
+              <p className="text-gray-300 text-sm">Verdejo, Spain</p>
+            </div>
+            <div>
+              <h4 className="text-white font-semibold mb-1">Vega Medien</h4>
+              <p className="text-gray-300 text-sm">Vegan bubbles, Spain</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
