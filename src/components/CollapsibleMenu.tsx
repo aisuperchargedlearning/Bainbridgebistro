@@ -73,44 +73,44 @@ const CollapsibleMenu = () => {
           title: 'TAPAS',
           items: [
             {
-              name: 'CAPRESE CROSTINI',
-              description: 'Tomatoes, basil pesto, creamy mozzarella, balsamic.'
+              name: 'SALMON CHOWDER',
+              description: 'Seasonal salmon, bacon, potatoes, smoked paprika, cream, bread.'
+            },
+            {
+              name: 'CAESAR SALAD',
+              description: 'Romaine, parmesan, seasoned croutons, caesar dressing.'
             },
             {
               name: 'MANILA CLAMS',
-              description: 'Fresh clams, brava sauce, bread.'
+              description: 'Fresh local manila clams, spicy brava sauce, bread.'
             },
             {
               name: 'ARANCINI',
-              description: 'Spinach & ricotta filled risotto balls, spicy arrabbiata, parmesan.'
-            },
-            {
-              name: 'SPINACH PIE',
-              description: 'Spinach, feta, phyllo dough, tzatziki.'
-            },
-            {
-              name: 'MEDITERRANEAN SCALLOPS',
-              description: 'Seared scallops, creamy garlic sauce, olives and feta, mini pitas.'
+              description: 'Beef & cheese filled risotto balls, spicy arrabiata, pecorino.'
             },
             {
               name: 'GAMBAS AL AJILLO',
-              description: 'Garlic shrimp, paprika, sherry, bread.'
+              description: 'Jumbo garlic shrimp, smoked paprika, sherry, bread.'
             },
             {
-              name: 'EMPANADAS',
-              description: 'Ground beef, four cheese, harissa.'
-            },
-            {
-              name: 'WILD MUSHROOMS CAZUELA',
-              description: 'Fresh local wild mushrooms, garlic, sherry, served with bread.'
+              name: 'BURRATA SALAD',
+              description: 'Kale, fennel, radicchio, pomegranate, balsamic, burrata.'
             },
             {
               name: 'CAULIFLOWER',
               description: 'Roasted cauliflower, lemon juice, paprika, almonds, romesco.'
             },
             {
-              name: 'SALMON CANAPE',
-              description: 'Seasonal salmon, mascarpone, dill, bread.'
+              name: 'BEETS & HUMMUS',
+              description: 'Chickpea spread, topped with cucumbers, beets, feta, olive oil, pita.'
+            },
+            {
+              name: 'WILD MUSHROOMS',
+              description: 'Fresh local wild mushrooms, garlic, sherry, served with bread.'
+            },
+            {
+              name: 'EMPANADAS',
+              description: 'Spinach & mozzarella filled empanadas, served with harissa.'
             }
           ]
         },
@@ -118,20 +118,20 @@ const CollapsibleMenu = () => {
           title: 'FRESH PASTA',
           items: [
             {
-              name: 'PUMPKIN RAVIOLI',
-              description: 'Sage butter, diced carrots, toasted walnuts, pecorino cheese. Pair with Il Borgo Pinot Grigio'
+              name: 'WILD MUSHROOMS RAVIOLI',
+              description: 'Creamy Wild mushrooms sauce, onions, gorgonzola. Pair with: Sixto Chardonnay'
             },
             {
               name: 'SCALLOPS TAGLIATELLE',
-              description: 'Fresh diver sea scallops, asparagus, tomatoes, onions, basil pesto. Pair with Eidosela Albariño'
+              description: 'Fresh diver sea scallops, asparagus, tomatoes, onions, basil pesto, parmesan. Pair with: Eidosela, Albarino'
             },
             {
               name: 'RAGU DI AGNELLO',
-              description: 'Braised lamb, red pepper pappardelle, ricotta cheese. Pair with Castle Rock Pinot Noir'
+              description: 'Braised lamb, red pepper pappardelle, feta cheese. Pair with: 8 year in the desert, Zinfandel'
             },
             {
               name: 'LEMON CHICKEN CAPELLINI',
-              description: 'Asparagus, tomatoes, onions, olives, lemon mascarpone sauce, pecorino. Pair with Barone Di Bernaj Alcamo'
+              description: 'Asparagus, tomatoes, onions, olives, lemon mascarpone sauce, pecorino. Pair with: Barone Di Bernaj Alcamo'
             }
           ]
         },
@@ -139,28 +139,28 @@ const CollapsibleMenu = () => {
           title: 'ENTREE',
           items: [
             {
-              name: 'COSTATA DI MANZO',
-              description: '12 oz. local ribeye steak, roasted potatoes, vegetables, gorgonzola. Pair with Ontanon Tempranillo'
+              name: 'BISTECCA',
+              description: '10 oz. New York Steak, roasted potatoes, vegetables, Romesco. Tierra de Lobos, Cabernet sauvignon'
             },
             {
-              name: 'SEARED HALIBUT',
-              description: 'Wild-caught halibut, mashed potatoes, gremolata. Pair with Santola Vinho Verde'
+              name: 'WILD HALIBUT',
+              description: 'Cranberry beurre blanc, veggies, saffron rice. Santola, Vinho Verde'
             },
             {
               name: 'LOBSTER RISOTTO',
-              description: 'Maine lobster tail, shrimp, asparagus, diced carrots, tomatoes, onions, parmesan. Pair with Il Borgo Pinot Grigio'
+              description: 'Maine lobster tail, shrimp, asparagus, carrots, tomatoes, onions, creamy carnaroli rice, parmesan. Anne Amie Pinot Grigio'
             },
             {
-              name: 'PORK MARSALA',
-              description: 'Pork tenderloin, roasted vegetables, mashed potatoes, mushrooms marsala. Pair with La Quercia Aglianico'
+              name: 'CHICKEN MARSALA',
+              description: 'Free range chicken, roasted vegetables, mashed potatoes, mushrooms marsala. La Quercia, Aglianico'
             },
             {
-              name: 'BAINBRIDGE BOUILLABAISSE',
-              description: 'Fresh clams, halibut, prawns, mire-poix, saffron aioli, bread. Pair with Flama d\'or Cava'
+              name: 'PORK CAZUELA',
+              description: 'Pork tenderloin, Spanish chorizo, garbanzo, veggies, brava, bread. Flama d\'or Cava'
             },
             {
-              name: 'DUNGENESS CRAB LEGS',
-              description: 'Steam served with roasted potatoes, veggies, and butter. Pair with Santola Vinho Verde'
+              name: 'AUTUMN HARVEST',
+              description: 'Wild mushrooms, carrots, yellow squash, greens, organic quinoa, harissa. Pajena, Barbera d\'Alba'
             }
           ]
         },
@@ -168,20 +168,20 @@ const CollapsibleMenu = () => {
           title: 'DESSERT',
           items: [
             {
-              name: 'PISTACHIO CHEESECAKE',
-              description: 'Ricotta cheese, pistachio cream, berries compote.'
+              name: 'BURNT BASQUE CHEESECAKE',
+              description: 'Gluten free, berry puree. Pairing: Timbal Sweet Vermouth'
+            },
+            {
+              name: 'CHOCOLATE MOUSSE',
+              description: 'Dark chocolate sauce, hazelnut. Pairing: Yzaguirre white Vermouth'
+            },
+            {
+              name: 'TIRAMISU',
+              description: 'Espresso-soaked lady fingers layered with cocoa and sweet Italian mascarpone. Pairing: Statement Port'
             },
             {
               name: 'GELATO & SORBETTO',
               description: 'Vanilla, pistachio, salted caramel, Vegan gelato and Mango sorbetto.'
-            },
-            {
-              name: 'TIRAMISU',
-              description: 'Espresso-soaked lady fingers layered with mascarpone.'
-            },
-            {
-              name: 'BASQUE CHEESECAKE',
-              description: 'Gluten free Spanish cheese cake, berries compote.'
             }
           ]
         }

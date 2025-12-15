@@ -173,48 +173,56 @@ function App() {
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-3xl mx-auto text-left">
             <div>
-              <h4 className="text-white font-semibold mb-1">Hop Water</h4>
+              <h4 className="text-white font-semibold mb-1">SEASONAL SHRUB</h4>
+              <p className="text-gray-300 text-sm">Inquire about our seasonal flavor.</p>
+            </div>
+            <div>
+              <h4 className="text-white font-semibold mb-1">NO GRONI</h4>
+              <p className="text-gray-300 text-sm">N/A negroni</p>
+            </div>
+            <div>
+              <h4 className="text-white font-semibold mb-1">HOP WATER</h4>
               <p className="text-gray-300 text-sm">Inquire about flavors</p>
             </div>
             <div>
-              <h4 className="text-white font-semibold mb-1">Athletic</h4>
+              <h4 className="text-white font-semibold mb-1">ATHLETIC</h4>
               <p className="text-gray-300 text-sm">Hazy IPA</p>
             </div>
             <div>
-              <h4 className="text-white font-semibold mb-1">Hellraiser</h4>
+              <h4 className="text-white font-semibold mb-1">HELLRAIZER</h4>
               <p className="text-gray-300 text-sm">Dark</p>
             </div>
             <div>
-              <h4 className="text-white font-semibold mb-1">Cider</h4>
-              <p className="text-gray-300 text-sm">Inquire about our flavors</p>
+              <h4 className="text-white font-semibold mb-1">CIDER</h4>
+              <p className="text-gray-300 text-sm">Inquire about our flavors.</p>
             </div>
             <div>
-              <h4 className="text-white font-semibold mb-1">Estrella</h4>
+              <h4 className="text-white font-semibold mb-1">ESTRELLA</h4>
               <p className="text-gray-300 text-sm">Lager, Spain</p>
             </div>
             <div>
-              <h4 className="text-white font-semibold mb-1">Gruvi</h4>
+              <h4 className="text-white font-semibold mb-1">GRUVI</h4>
               <p className="text-gray-300 text-sm">Amber</p>
             </div>
             <div>
-              <h4 className="text-white font-semibold mb-1">Partake</h4>
+              <h4 className="text-white font-semibold mb-1">PARTAKE</h4>
               <p className="text-gray-300 text-sm">IPA or Blonde</p>
             </div>
             <div>
-              <h4 className="text-white font-semibold mb-1">Vinada</h4>
-              <p className="text-gray-300 text-sm">Cava Rosé, Spain</p>
+              <h4 className="text-white font-semibold mb-1">VINADA</h4>
+              <p className="text-gray-300 text-sm">Cava rose, Spain</p>
             </div>
             <div>
-              <h4 className="text-white font-semibold mb-1">Red Wine</h4>
+              <h4 className="text-white font-semibold mb-1">RED WINE</h4>
               <p className="text-gray-300 text-sm">Tempranillo, Spain</p>
             </div>
             <div>
-              <h4 className="text-white font-semibold mb-1">White Wine</h4>
+              <h4 className="text-white font-semibold mb-1">WHITE WINE</h4>
               <p className="text-gray-300 text-sm">Verdejo, Spain</p>
             </div>
             <div>
-              <h4 className="text-white font-semibold mb-1">Vega Medien</h4>
-              <p className="text-gray-300 text-sm">Vegan bubbles, Spain</p>
+              <h4 className="text-white font-semibold mb-1">VEGA MEDIEN</h4>
+              <p className="text-gray-300 text-sm">Vegan bubbles, Spain.</p>
             </div>
           </div>
         </div>
