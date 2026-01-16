@@ -269,7 +269,7 @@ function App() {
           <div className="text-gray-300 text-lg space-y-4">
             <div>
               <p className="font-semibold text-white mb-2">Tuesday through Thursday</p>
-              <p>11AM to 2PM and 4PM to 9PM</p>
+              <p>11AM to 2PM and 4:30 PM to 9PM</p>
             </div>
             <div>
               <p className="font-semibold text-white mb-2">Friday</p>
