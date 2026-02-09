@@ -141,7 +141,7 @@ function App() {
             <div>
               <h3 className="text-2xl font-semibold mb-2">After-Party Celebration</h3>
               <p className="mb-1">9:30 PM – 11:30 PM</p>
-              <p className="mb-1">An amazing late-night party with DJ Max spinning.</p>
+              <p className="mb-1">An amazing late-night party with Cheo spinning.</p>
               <p className="font-semibold">$30 per person</p>
             </div>
 
