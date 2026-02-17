@@ -109,63 +109,6 @@ function App() {
       </div>
     </div>
 
-    {/* Valentine's Day 2026 Section */}
-    <div className="relative bg-slate-900 overflow-hidden" style={{ backgroundColor: '#0A0E1A', minHeight: '130vh' }}>
-      {/* Image Background */}
-      <img
-        src="https://ik.imagekit.io/a7tech/Bainbridge%20Bistro/valentines2026.jpg"
-        alt="Valentine's Day 2026"
-        className="absolute inset-0 w-full h-full object-contain opacity-0 animate-fade-in"
-      />
-
-      {/* Overlay for better text readability */}
-      <div className="absolute inset-0 bg-black opacity-20"></div>
-    </div>
-
-    {/* Next Section */}
-    <section className="min-h-screen flex items-center justify-center" style={{ backgroundColor: '#2A364A' }}>
-      <div className="max-w-4xl mx-auto px-6 text-center">
-        <div className="opacity-0 animate-fade-in" style={{ animationDelay: '0.3s' }}>
-          <h2 className="text-4xl md:text-6xl font-light text-white mb-8 tracking-wide">
-            February 14 — Valentine's Party at Bainbridge Bistro
-          </h2>
-          <div className="w-24 h-px bg-white mx-auto mb-8 opacity-60"></div>
-
-          <div className="text-lg md:text-xl text-white opacity-90 leading-relaxed max-w-2xl mx-auto space-y-6">
-            <div>
-              <h3 className="text-2xl font-semibold mb-2">Dinner Service</h3>
-              <p className="mb-1">4:30 PM – 9:30 PM</p>
-              <p>Enjoy our special Valentine's dinner menu in a warm, intimate setting.</p>
-            </div>
-
-            <div>
-              <h3 className="text-2xl font-semibold mb-2">After-Party Celebration</h3>
-              <p className="mb-1">9:30 PM – 11:30 PM</p>
-              <p className="mb-1">An amazing late-night party with Cheo spinning.</p>
-              <p className="font-semibold">$30 per person</p>
-            </div>
-
-            <p className="text-xl pt-4">
-              Singles and couples welcome — come for the romance, the music, or just a great night out.
-            </p>
-          </div>
-        </div>
-
-        {/* Venue Video */}
-        <div className="mt-12 max-w-5xl mx-auto opacity-0 animate-fade-in" style={{ animationDelay: '0.6s' }}>
-          <video
-            autoPlay
-            loop
-            muted
-            playsInline
-            className="w-full rounded-lg shadow-2xl"
-          >
-            <source src="https://ik.imagekit.io/a7tech/Bainbridge%20Bistro/BainbridgebistroVenue.mp4?updatedAt=1759515001320" type="video/mp4" />
-          </video>
-        </div>
-      </div>
-    </section>
-
     {/* Experience Section */}
     <section className="min-h-screen flex items-center justify-center" style={{ backgroundColor: '#2A364A' }}>
       <div className="max-w-4xl mx-auto px-6 text-center">
