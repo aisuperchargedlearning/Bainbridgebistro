@@ -6,37 +6,6 @@ function App() {
   return (
     <>
     <Navigation />
-    <div className="relative min-h-screen bg-slate-900 overflow-hidden" style={{ backgroundColor: '#0A0E1A' }}>
-      {/* Video Background */}
-      <video
-        autoPlay
-        loop
-        muted
-        playsInline
-        className="absolute inset-0 w-full h-full object-cover opacity-0 animate-fade-in"
-      >
-        <source src="https://ik.imagekit.io/a7tech/Bainbridge%20Bistro/Tagliatelle%20De%20Mare.mp4?updatedAt=1759507820762" type="video/mp4" />
-      </video>
-
-      {/* Overlay for better text readability if needed */}
-      <div className="absolute inset-0 bg-black opacity-20"></div>
-
-      {/* Hero Content */}
-      <div className="relative min-h-screen">
-        <img
-          src="https://ik.imagekit.io/a7tech/Bainbridge%20Bistro/Bainbridgebistrologo.jpg?updatedAt=1756830222667"
-          alt="Bainbridge Bistro Logo"
-          className="absolute top-16 left-6 w-24 h-24 object-contain opacity-0 animate-fade-in"
-          style={{ animationDelay: '0.5s' }}
-        />
-        <div className="absolute bottom-12 left-0 right-0 text-center">
-          <p className="text-white text-2xl md:text-3xl font-light tracking-wide opacity-0 animate-fade-in" style={{ animationDelay: '3s' }}>
-            Tagliatelle ai frutti di mare
-          </p>
-        </div>
-      </div>
-    </div>
-
     {/* Lamb Ragu Showcase Section */}
     <div className="relative min-h-screen bg-slate-900 overflow-hidden" style={{ backgroundColor: '#0A0E1A' }}>
       {/* Video Background */}
@@ -53,35 +22,19 @@ function App() {
       {/* Overlay for better text readability */}
       <div className="absolute inset-0 bg-black opacity-20"></div>
 
-      {/* Content */}
-      <div className="relative min-h-screen flex items-end justify-center pb-12">
-        <p className="text-white text-2xl md:text-3xl font-light tracking-wide opacity-0 animate-fade-in" style={{ animationDelay: '3s' }}>
-          Lamb Ragu with Spanish Wine
-        </p>
-      </div>
-    </div>
-
-    {/* Chicken Marsala Showcase Section */}
-    <div className="relative min-h-screen bg-slate-900 overflow-hidden" style={{ backgroundColor: '#0A0E1A' }}>
-      {/* Video Background */}
-      <video
-        autoPlay
-        loop
-        muted
-        playsInline
-        className="absolute inset-0 w-full h-full object-cover opacity-0 animate-fade-in"
-      >
-        <source src="https://ik.imagekit.io/a7tech/Bainbridge%20Bistro/Chickenmarsala.mp4?updatedAt=1759528636176" type="video/mp4" />
-      </video>
-
-      {/* Overlay for better text readability */}
-      <div className="absolute inset-0 bg-black opacity-20"></div>
-
-      {/* Content */}
-      <div className="relative min-h-screen flex items-end justify-center pb-12">
-        <p className="text-white text-2xl md:text-3xl font-light tracking-wide opacity-0 animate-fade-in" style={{ animationDelay: '3s' }}>
-          Chicken Marsala
-        </p>
+      {/* Hero Content */}
+      <div className="relative min-h-screen">
+        <img
+          src="https://ik.imagekit.io/a7tech/Bainbridge%20Bistro/Bainbridgebistrologo.jpg?updatedAt=1756830222667"
+          alt="Bainbridge Bistro Logo"
+          className="absolute top-16 left-6 w-24 h-24 object-contain opacity-0 animate-fade-in"
+          style={{ animationDelay: '0.5s' }}
+        />
+        <div className="absolute bottom-12 left-0 right-0 text-center">
+          <p className="text-white text-2xl md:text-3xl font-light tracking-wide opacity-0 animate-fade-in" style={{ animationDelay: '3s' }}>
+            RAGU DI AGNELLO
+          </p>
+        </div>
       </div>
     </div>
 
