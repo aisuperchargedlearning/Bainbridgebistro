@@ -195,6 +195,10 @@ function App() {
             <h3 className="text-xl font-semibold text-white mb-6 tracking-wide" style={{ fontFamily: 'Libre Baskerville, serif' }}>
               RESERVATIONS & CONTACT
             </h3>
+            <div className="text-gray-300 text-sm mb-4 italic">
+              <p className="mb-1">Primarily walk-in.</p>
+              <p className="mb-4">Limited reservations available — please call if interested.</p>
+            </div>
             <div className="text-gray-300 text-lg mb-4">
               <p className="mb-2">403 Madison Ave N</p>
               <p className="mb-4">Bainbridge Island, WA 98110</p>
@@ -213,17 +217,7 @@ function App() {
       </div>
     </section>
     
-    {/* Privacy Section */}
-    <section className="py-8" style={{ backgroundColor: '#2A364A' }}>
-      <div className="max-w-4xl mx-auto px-6">
-        <div className="text-center">
-          <p className="text-gray-400 text-sm">
-            We respect your privacy. This website does not collect personal information or use cookies to track visitors.
-          </p>
-        </div>
-      </div>
-    </section>
-    </>
+</>
   );
 }
 
