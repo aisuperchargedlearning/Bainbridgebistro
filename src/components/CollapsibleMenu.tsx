@@ -46,15 +46,11 @@ const CollapsibleMenu = () => {
           items: [
             {
               name: 'SEAFOOD CHOWDER',
-              description: 'Lobster, salmon, seafood broth, bacon, potatoes, smoked paprika, cream, bread.'
+              description: 'Dungeness crab, lobster meat, cod, seafood broth, bacon, potatoes, smoked paprika, cream, bread.'
             },
             {
               name: 'CAESAR SALAD',
               description: 'Romaine, parmesan, seasoned croutons, caesar dressing.'
-            },
-            {
-              name: 'ARANCINI',
-              description: 'Ground beef, peas, ricotta, brava.'
             },
             {
               name: 'GAMBAS AL AJILLO',
@@ -74,7 +70,7 @@ const CollapsibleMenu = () => {
             },
             {
               name: 'DUNGENESS CRAB DIP',
-              description: 'Fresh crab meat, onions, celery, mozzarella, parmesan, baguette.'
+              description: 'Fresh crab meat, artichoke hearts, mozzarella, parmesan, baguette.'
             },
             {
               name: 'BACON WRAPPED SCALLOPS',
@@ -83,7 +79,7 @@ const CollapsibleMenu = () => {
           ]
         },
         {
-          title: 'FRESH PASTA',
+          title: 'FRESH PASTA + GRAINS',
           items: [
             {
               name: 'WILD MUSHROOMS RAVIOLI',
@@ -111,24 +107,12 @@ const CollapsibleMenu = () => {
               description: '12 oz. Grass fed New York steak, gorgonzola, veggie medley, roasted potatoes. Pair with: La Quercia, Red blend'
             },
             {
-              name: 'BACON WRAPPED SCALLOPS',
-              description: 'Nantucket scallops, beluga lentils, carrots, asparagus, mojo verde. Pair with: Santola, Vinho Verde'
-            },
-            {
-              name: 'LOBSTER RISOTTO',
-              description: 'Maine lobster tail, shrimp, asparagus, carrots, tomatoes, onions, creamy carnaroli rice, parmesan. Pair with: Anne Amie Pinot Grigio'
-            },
-            {
               name: 'PORK CAZUELA',
               description: 'Pork Tenderloin, Spanish chorizo, garbanzo, veggies, brava, gorgonzola, bread. Pair with: Flama d\'or Cava'
             },
             {
-              name: 'WINTER HARVEST',
-              description: 'Wilted greens, carrots, yellow squash, farro, wild mushrooms, tzatziki, feta. Pair with: Cingilia, Pecorino'
-            },
-            {
-              name: 'DUNGENESS CRAB CAKE',
-              description: 'Fresh Dungeness meat, remoulade sauce, veggie medley, mashed potatoes. Pair with: Coelho Chardonnay'
+              name: 'ALASKAN HALIBUT',
+              description: 'Fresh halibut filet, saffron rice, veggies, romesco sauce.'
             }
           ]
         },
