@@ -77,8 +77,8 @@ const CollapsibleMenu = () => {
               description: 'Fresh crab meat, onions, celery, mozzarella, parmesan, baguette.'
             },
             {
-              name: 'EMPANADAS',
-              description: 'Spinach & mozzarella filled empanadas, served with harissa.'
+              name: 'BACON WRAPPED SCALLOPS',
+              description: 'Nantucket scallops, saffron rice, mojo verde.'
             }
           ]
         },

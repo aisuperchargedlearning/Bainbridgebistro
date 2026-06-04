@@ -169,11 +169,11 @@ function App() {
             </div>
             <div>
               <p className="font-semibold text-white mb-2">Friday</p>
-              <p>11AM to 2PM and 4:30 to 11PM</p>
+              <p>11AM to 2PM and 4:30 to 10PM</p>
             </div>
             <div>
               <p className="font-semibold text-white mb-2">Saturday</p>
-              <p>4:30 to 11PM</p>
+              <p>4:30 to 10PM</p>
             </div>
           </div>
         </div>
