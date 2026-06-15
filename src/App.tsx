@@ -6,7 +6,7 @@ function App() {
   return (
     <>
     <Navigation />
-    {/* Lamb Ragu Showcase Section */}
+    {/* Alaskan Halibut Showcase Section */}
     <div className="relative min-h-screen bg-slate-900 overflow-hidden" style={{ backgroundColor: '#0A0E1A' }}>
       {/* Video Background */}
       <video
@@ -16,7 +16,7 @@ function App() {
         playsInline
         className="absolute inset-0 w-full h-full object-cover opacity-0 animate-fade-in"
       >
-        <source src="https://ik.imagekit.io/a7tech/Bainbridge%20Bistro/Lamb%20Ragu%20with%20Spanish%20Wine.mp4?updatedAt=1759528124850" type="video/mp4" />
+        <source src="https://ik.imagekit.io/a7tech/Bainbridge%20Bistro/Bainbridgebistrohalibutvideo2.mp4" type="video/mp4" />
       </video>
 
       {/* Overlay for better text readability */}
@@ -32,7 +32,7 @@ function App() {
         />
         <div className="absolute bottom-12 left-0 right-0 text-center">
           <p className="text-white text-2xl md:text-3xl font-light tracking-wide opacity-0 animate-fade-in" style={{ animationDelay: '3s' }}>
-            RAGU DI AGNELLO
+            ALASKAN HALIBUT
           </p>
         </div>
       </div>
