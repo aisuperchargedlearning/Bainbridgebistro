@@ -96,6 +96,14 @@ const CollapsibleMenu = () => {
             {
               name: 'CHICKEN TORTELLINI',
               description: 'Asparagus, tomatoes, onions, olives, pesto sauce, parmesan. Pair with: Barone Di Bernaj Alcamo'
+            },
+            {
+              name: 'LOBSTER RISOTTO',
+              description: '8 oz Maine lobster tail, shrimp, asparagus, carrots, tomatoes, onions, creamy carnaroli rice, parmesan. Pair with Anne Amie Pinot Grigio'
+            },
+            {
+              name: 'SPRING BOWL',
+              description: 'Spring greens, carrots, yellow squash, farro, asparagus, tzatziki, feta. Pair with Eidosela Albariño'
             }
           ]
         },
