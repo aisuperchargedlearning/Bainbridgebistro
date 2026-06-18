@@ -35,6 +35,35 @@ function App() {
       </div>
     </div>
 
+    {/* Bacon-Wrapped Sea Scallops Showcase Section */}
+    <div className="relative min-h-screen bg-slate-900 overflow-hidden" style={{ backgroundColor: '#0A0E1A' }}>
+      {/* Video Background */}
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="absolute inset-0 w-full h-full object-cover opacity-0 animate-fade-in"
+      >
+        <source src="https://ik.imagekit.io/a7tech/Bainbridge%20Bistro/scallopsfinaljuly26compressed.mp4" type="video/mp4" />
+      </video>
+
+      {/* Overlay for better text readability */}
+      <div className="absolute inset-0 bg-black opacity-20"></div>
+
+      {/* Content */}
+      <div className="relative min-h-screen flex items-end justify-center pb-12">
+        <div className="text-center opacity-0 animate-fade-in" style={{ animationDelay: '3s' }}>
+          <p className="text-white text-2xl md:text-3xl font-light tracking-wide">
+            Bacon-Wrapped Sea Scallops
+          </p>
+          <p className="text-white text-base md:text-lg font-light tracking-wide mt-2 opacity-80">
+            with Saffron Rice and House-Made Mojo Verde
+          </p>
+        </div>
+      </div>
+    </div>
+
     {/* Alaskan Halibut Showcase Section */}
     <div className="relative min-h-screen bg-slate-900 overflow-hidden" style={{ backgroundColor: '#0A0E1A' }}>
       {/* Video Background */}
