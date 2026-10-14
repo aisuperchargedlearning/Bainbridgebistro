@@ -46,64 +46,56 @@ const CollapsibleMenu = () => {
           items: [
             {
               name: 'SEAFOOD CHOWDER',
-              description: 'Dungeness crab, lobster meat, cod, seafood broth, bacon, potatoes, smoked paprika, cream, bread.'
+              description: 'Dungeness crab, lobster, cod, seafood broth, bacon, potatoes, smoked paprika, cream, side of bread.'
             },
             {
               name: 'CAESAR SALAD',
-              description: 'Romaine, parmesan, seasoned croutons, caesar dressing.'
+              description: 'Romaine, parmesan, croutons, caesar dressing.'
+            },
+            {
+              name: 'BURRATA',
+              description: 'Heirloom tomatoes, onions, olives, balsamic, burrata.'
+            },
+            {
+              name: 'HUMMUS',
+              description: 'Harissa, feta, cucumber, pita.'
             },
             {
               name: 'GAMBAS AL AJILLO',
-              description: 'Jumbo garlic shrimp, smoked paprika, sherry, bread.'
-            },
-            {
-              name: 'BURRATA & HUMMUS',
-              description: 'Heirloom tomatoes, cucumber, olives, balsamic, olive oil, pita.'
-            },
-            {
-              name: 'CAULIFLOWER',
-              description: 'Roasted cauliflower, lemon juice, paprika, almonds, romesco.'
+              description: 'Jumbo garlic shrimp, smoked paprika, sherry, side of bread.'
             },
             {
               name: 'WILD MUSHROOMS',
-              description: 'Fresh local wild mushrooms, garlic, sherry, served with bread.'
+              description: 'Wild mushrooms, garlic, sherry, side of bread.'
             },
             {
-              name: 'DUNGENESS CRAB DIP',
-              description: 'Fresh crab meat, artichoke hearts, mozzarella, parmesan, baguette.'
-            },
-            {
-              name: 'BACON WRAPPED SCALLOPS',
-              description: 'Nantucket scallops, saffron rice, mojo verde.'
+              name: 'CAULIFLOWER',
+              description: 'Roasted cauliflower, lemon, paprika, almonds, romesco.'
             }
           ]
         },
         {
-          title: 'FRESH PASTA + GRAINS',
+          title: 'FRESH PASTA & GRAINS',
           items: [
             {
-              name: 'WILD MUSHROOMS RAVIOLI',
-              description: 'Creamy Wild mushrooms sauce, onions, gorgonzola cheese. Pair with: David Hill Pinot Noir'
+              name: 'LEMON CHICKEN LINGUINI',
+              description: 'Free range chicken, asparagus, tomatoes, onions, lemon mascarpone, pecorino.'
             },
             {
               name: 'RAGU DI AGNELLO',
-              description: 'Braised lamb, cacciatore sauce, red pepper pappardelle, feta cheese. Pair with: Qui Pro Quo, Sangiovese'
+              description: 'Slow cooked New Zealand lamb, cacciatore sauce, saffron rice, roasted veggies, feta.'
             },
             {
-              name: 'PRAWNS CAPELLINI',
-              description: 'Asparagus, tomatoes, onions, lemon mascarpone, pecorino. Pair with: Coelho Chardonnay'
-            },
-            {
-              name: 'CHICKEN TORTELLINI',
-              description: 'Asparagus, tomatoes, onions, olives, pesto sauce, parmesan. Pair with: Barone Di Bernaj Alcamo'
+              name: 'PRAWNS TAGLIATELLE',
+              description: 'Asparagus, tomatoes, onions, olives, pesto, parmesan.'
             },
             {
               name: 'LOBSTER RISOTTO',
-              description: '8 oz Maine lobster tail, shrimp, asparagus, carrots, tomatoes, onions, creamy carnaroli rice, parmesan. Pair with Anne Amie Pinot Grigio'
+              description: 'Maine lobster tail, shrimp, asparagus, carrots, tomatoes, onions, creamy carnaroli rice, parmesan.'
             },
             {
-              name: 'SPRING BOWL',
-              description: 'Spring greens, carrots, yellow squash, farro, asparagus, tzatziki, feta. Pair with Eidosela Albariño'
+              name: 'SUMMER BOWL',
+              description: 'Bainbridge organic vegetables, wilted baby kale, farro, asparagus, tzatziki, feta.'
             }
           ]
         },
@@ -111,16 +103,20 @@ const CollapsibleMenu = () => {
           title: 'ENTREE',
           items: [
             {
-              name: 'BISTECCA ALLA GORGONZOLA',
-              description: '12 oz. Grass fed New York steak, gorgonzola, veggie medley, roasted potatoes. Pair with: La Quercia, Red blend'
+              name: 'FILET MIGNON',
+              description: 'Gorgonzola, roasted veggies, roasted potatoes.'
             },
             {
               name: 'PORK CAZUELA',
-              description: 'Pork Tenderloin, Spanish chorizo, garbanzo, veggies, brava, gorgonzola, bread. Pair with: Flama d\'or Cava'
+              description: 'Pork tenderloin, garbanzo beans, brava, veggies.'
             },
             {
-              name: 'ALASKAN HALIBUT',
-              description: 'Fresh halibut filet, saffron rice, veggies, romesco sauce.'
+              name: 'WILD KING SALMON',
+              description: 'Mashed potatoes, roasted veggies, gremolata.'
+            },
+            {
+              name: 'BACON WRAPPED SCALLOPS',
+              description: 'Nantucket scallops, saffron rice, roasted veggies, mojo verde.'
             }
           ]
         },
@@ -128,16 +124,20 @@ const CollapsibleMenu = () => {
           title: 'DESSERT',
           items: [
             {
-              name: 'CHOCOLATE CAKE',
-              description: 'Triple chocolate cake, whipped cream. Pairing: Yzaguirre white Vermouth'
+              name: 'TIRAMISU',
+              description: 'Espresso soaked lady fingers layered with cocoa and mascarpone.'
             },
             {
-              name: 'TIRAMISU',
-              description: 'Espresso-soaked lady fingers layered with cocoa and sweet Italian mascarpone. Pairing: Statement Port'
+              name: 'CHOCOLATE CAKE',
+              description: 'Triple chocolate cake, hazelnut cream, whipped cream.'
+            },
+            {
+              name: 'BASQUE CHEESECAKE',
+              description: 'Burnt basque cheesecake, strawberries (gluten free).'
             },
             {
               name: 'GELATO & SORBETTO',
-              description: 'Vanilla, pistachio, salted caramel, Vegan gelato and Mango sorbetto.'
+              description: 'Vanilla, pistachio, salted caramel, mango.'
             }
           ]
         }

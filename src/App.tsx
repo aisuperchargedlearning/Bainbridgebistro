@@ -90,13 +90,13 @@ function App() {
         />
         <div className="absolute bottom-12 left-0 right-0 text-center">
           <p className="text-white text-2xl md:text-3xl font-light tracking-wide opacity-0 animate-fade-in" style={{ animationDelay: '3s' }}>
-            ALASKAN HALIBUT
+            COMING BACK NEXT SEASON
           </p>
         </div>
       </div>
     </div>
 
-    {/* Bistecca Alla Gorgonzola Showcase Section */}
+    {/* Filet Mignon Showcase Section */}
     <div className="relative min-h-screen bg-slate-900 overflow-hidden" style={{ backgroundColor: '#0A0E1A' }}>
       {/* Video Background */}
       <video
@@ -115,7 +115,7 @@ function App() {
       {/* Content */}
       <div className="relative min-h-screen flex items-end justify-center pb-12">
         <p className="text-white text-2xl md:text-3xl font-light tracking-wide opacity-0 animate-fade-in" style={{ animationDelay: '3s' }}>
-          Bistecca Alla Gorgonzola
+          Filet Mignon
         </p>
       </div>
     </div>
